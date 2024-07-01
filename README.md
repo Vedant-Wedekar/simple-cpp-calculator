@@ -1,47 +1,22 @@
-# simple-cpp-calculator
-"A simple calculator project in C++."
-#include <iostream>
-#include<cmath>
-using namespace std;
+# C++ Calculator
 
-int main() {
+![Calculator Screenshot](path/to/screenshot.png)
 
-	//define variable
-	string operation;
-	double number1, number2;
+A simple calculator application written in C++.
 
-	//get user input
-	std::cout << "Enter a first Number: ";
-	std::cin >> number1;
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-	std::cout << "Enter Operation(+,-,*,/): ";
-	std::cin >> operation;
-
-	std::cout << "Enter Second Number: ";
-	std::cin >> number2;
-
-	//if else statement checking entered Operation
-
-	if(operation == "+") {
-
-		std::cout<<number1 + number2;
-	}
-	else if (operation == "-") {
-		std::cout << number1 - number2;
-	}
-
-
-	else if (operation == "*") {
-		std::cout << number1 * number2;
-	}
-
-	else if (operation == "/") {
-		std::cout << number1 / number2;
-	}
-	else {
-
-		std::cout << "Number not recognized ";
-
-	}
-	return 0;
-}
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/cpp-calculator.git
+# Navigate to the project directory
+cd cpp-calculator
+# Compile the program
+g++ calculator.cpp -o calculator
+# Run the program
+./calculator
