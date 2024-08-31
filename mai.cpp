@@ -24,19 +24,20 @@ int main() {
 
 	if(operation == "+") {
 
-		std::cout<<number1 + number2;
+
+		std::cout<<"Addition ="<<number1 + number2;
 	}
 	else if (operation == "-") {
-		std::cout << number1 - number2;
+		std::cout <<"Subtraction = "<< number1 - number2;
 	}
 
 
 	else if (operation == "*") {
-		std::cout << number1 * number2;
+		std::cout <<"Multiplication ="<< number1 * number2;
 	}
 
 	else if (operation == "/") {
-		std::cout << number1 / number2;
+		std::cout <<"Division ="<< number1 / number2;
 	}
 	else {
 
